@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+}
+
+header {
+
+    width: 1400px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+/* nav section */
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-item ul {
+    display: flex;
+}
+
+.nav-item ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.banner-item {
+    text-align: center;
+
+}
+
+.banner-title {
+    margin-top: 35px;
+}
+
+.banner-description {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 868px;
+    height: 52px;
+}
+
+.banner-btn,
+.features-btn {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+
+
+    margin-bottom: 52px;
+}
+
+.banner-img {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 700px;
+    padding: 20px 200px;
+    border-radius: 8px;
+}
+
+/* ---------------container------------ */
+.container {
+    width: 1440px;
+    height: 1059px;
+    margin-top: 81px;
+}
+
+/* quick list of our futures */
+.quick-ours-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 73px;
+}
+
+.ours-feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.ours-feature-img img {
+    width: 342px;
+    height: 342px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 25px 0px;
+}
+
+/* love and endjoy section */
+.love-and-enjoy {
+    display: flex;
+    padding: 50px 200px;
+}
+
+.love-enjoy-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.love-enjoy-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.love-enjoy article{
+    width: 586px;
+height: 171px;
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padi
+}
