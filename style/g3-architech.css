@@ -438,6 +438,26 @@ header {
 
 
     }
+    .btn{
+        height: 100px;
+        width: 203px;
+        margin-left: 84px;
+        font-size: 10px;
+        font-weight: 20px   ;
+    }
+    .btn span {
+      
+        font-weight: 700;
+        font-size: 40px;
+      
+    }
+    
+    .btn p {
+        font-weight: 500;
+        font-size: 20px;
+        
+    
+    }
 
     .fact-top-item{
         text-align: center;
